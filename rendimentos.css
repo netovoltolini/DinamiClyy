@@ -1,0 +1,66 @@
+body{
+    background-image: url(fundo.jpg);
+}
+
+#brand
+{
+    text-align: center;
+}
+
+
+#centraliza
+{
+    width: 400px;
+    margin: auto;
+    height: 40px;
+}
+
+#bruto, #extra, #liq
+{
+    border-radius: 110px;
+}
+
+
+.form
+{
+    border: 3px solid;
+    border-color: aliceblue;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+form
+{
+    text-align: center;
+}
+
+#centraliza2
+{
+    width: 100px;
+    margin: auto;
+    height: 40px;
+}
+
+
+#logo
+{
+    width: 300px;
+    margin: auto;
+    padding-left: 30px;
+  
+}
+
+#label{
+    width: 110px;
+    margin: auto;
+    color: white;
+}
+
+#infos
+{
+    margin: 10px;
+}

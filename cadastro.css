@@ -1,0 +1,47 @@
+body{
+    background-image: url(fundo.jpg);
+}
+
+#centraliza
+{
+    width: 450px;
+    margin: auto;
+    height: 40px; 
+    
+}
+
+#centraliza2
+{
+    width: 60px;
+    margin: auto;
+    height: 40px; 
+}
+
+#centraliza3
+{
+    width: 100px;
+    margin: auto;
+    height: 40px; 
+}
+
+#nome{
+    border-radius: 110px;
+}
+
+label{
+    margin-bottom: 5px;   
+    margin-top: 5px;
+}
+
+#brand
+{
+    width: 260px;
+    margin: auto;
+  
+}
+
+#label{
+    width: 120px;
+    margin: auto;
+    color: white;
+}

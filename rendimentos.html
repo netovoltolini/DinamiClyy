@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DinamiCly - Tela de Rendimentos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <link href="rendimentos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aff5796c5c.js" crossorigin="anonymous"></script>
+    <!-- Imagem e texto -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="brand2.png" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home 
+            <a class="nav-item nav-link" href="cadastro.html">Cadastro</a>
+            <a class="nav-item nav-link active" href="rendimentos.html">Rendimentos</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+       
+        <div id="brand" class="row mt-5">
+            <div class="col md-12" style="color: rgb(140, 101, 231);">
+            Informar Rendimentos
+            </div>
+        </div>
+            <form class="mt-4">
+                <div class="row">
+                    <div id="centraliza">
+                        <div class="col md-12">
+                            <div class="form-group">
+                                <label>Salário Bruto:</label>
+                                <input id ="bruto" type="text" class="form-control" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div class="row mt-4">
+                    <div id="centraliza">
+                        <div class="col md-12">
+                            <div class="form-group">
+                                <label class="mt-2">Fonte de renda Extra:</label>
+                                <input id ="extra" type="text" class="form-control" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div id="centraliza">
+                        <div class="col md-12">
+                                <div class="form-group">
+                                <label class="mt-3">Salário Líquido:</label>
+                                <input id ="liq" type="text" class="form-control" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </form>
+                <div class="row mt-5">
+                    <div class="form mt-5">
+                        <div id="centraliza">
+                            <div class="col-md-12">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Gostaria de gerar um extrato em PDF no seu 
+                                        <br>email dos seus lucros mensais?</label>
+                                  </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="centraliza2">
+                        <div class="col-md-12">
+                            <button class="btn btn-info mt-2">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="logo">
+                        <div class="col md-12 mt-5">
+                            <img src="brand.png" width="230">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="label">
+                        <div class="col md-12">
+                           <label>DinamiCly</label>
+                        </div>
+                    </div>
+                </div>
+        </div>     
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          </body>
+</html>
